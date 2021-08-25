@@ -1,0 +1,30 @@
+.error-back{
+	width: 20%;
+	margin: 20px 40%;
+	background: #66FF66;
+	text-align: center;
+	padding: 3px;
+}
+.error-back > a{
+	color: #FFFFFF;
+	margin-top: 0.5vh;
+	margin-bottom: 0.5vh;
+	font-size: 35px;
+}
+.error-title{
+	font-size: 40px;
+	text-align: center;
+	color: #66FF66;
+	font-weight: bold;
+}
+.error-text{
+	font-size: 24px;
+	text-align: center;
+	color: #66FF66;
+	margin-bottom: 20px;
+}
+.error-tips{
+	width: 70%;
+	font-size: 18px;
+	margin: auto 15%;
+}

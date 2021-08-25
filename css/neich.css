@@ -1,0 +1,9 @@
+.neich-content > table{
+	color: #66FF66;
+	text-align: center;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+.neich-content > table > tbody > tr > td > a{
+	color: #66FF66;
+}

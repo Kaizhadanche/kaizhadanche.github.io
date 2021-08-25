@@ -1,0 +1,3 @@
+function footer(){
+	document.getElementById("b-footer").innerHTML = '<div style="clear:both;"></div><div class="footer-left">Powered by Github Pages<br /><a href="https://github.com/kaizhadanche/kaizhadanche.github.io" id="footer-left-1">Repository Code</a> · <a href="https://github.com/kaizhadanche/kaizhadanche.github.io/issues">Issues</a></div><div class="footer-right"><p><a href="../blog/index.html" id="backtoindex"><span id="name-kjdc">开炸弹车</span></a> | <span id="name-lzya">Lzya</span> | <span id="name-cutie">Cutie</span></p><p><i class="fa fa-cc" aria-hidden="true"></i>&nbsp;除非另有声明，本网站内容采用<a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>协议授权。</p></div>';
+};

@@ -1,0 +1,169 @@
+/* 整体调整 避免奇怪的事情发生 */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "微软雅黑","宋体","arial black",sans-serif;
+}
+body{
+	margin: 0;
+	background: #0F0E0E;
+	width: 100%;
+}
+/* 默认颜色尺寸链接调整 */
+h1,h2,h3,h4,h5,h6,p,ul,li,hr{
+	color: #66FF66;
+}
+h1{
+	font-size: 32px;
+}
+a{
+	text-decoration: none;
+	color: #6F87ED;
+}
+/* 页眉页脚 */
+.title{
+	margin-top: 10px;
+	margin-left: 70px;
+	width: 30%;
+	display: inline-block;
+}
+#title-avatar{
+	width: 50px;
+	height: 50px;
+	margin-right: 5px;
+	position: relative;
+	top: 16px;
+	border: solid 2px rgb(102,255,102);
+	border-radius: 50%;
+	transition: transform 600ms;
+	-moz-transition: transform 600ms; /* Firefox 4 */
+	-webkit-transition: transform 600ms; /* Safari 和 Chrome */
+	-o-transition: transform 600ms; /* Opera */
+}
+#title-avatar:hover{
+	transform:rotate(360deg);
+	-ms-transform:rotate(360deg); 	/* IE 9 */
+	-moz-transform:rotate(360deg); 	/* Firefox */
+	-webkit-transform:rotate(360deg); /* Safari 和 Chrome */
+	-o-transform:rotate(360deg); 	/* Opera */
+}
+.search{
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 27px;
+	width: 50%;
+	float: right;
+}
+#search-in{
+	width: 70%;
+	height: 42px;
+	border: rgb(200,200,200,0.75) solid 3px;
+	border-radius: 10px;
+	background: rgb(245,250,250);
+	padding: 5px;
+	font-size: 16px;
+}
+#search-ico{
+	display: inline;
+	width: 30%;
+	margin-left: 5px;
+	position: relative;
+	top: 5px;
+	color: #66FF66;
+}
+#search-ico:hover{
+	border: rgba(255,255,255,0.25) solid 1px;
+}
+
+footer{
+	width: 95%;
+	margin: 100px 2.5% 0px 2.5%;
+	padding: 5px;
+}
+.footer-left{
+	width: 50%;
+	text-align: left;
+	color: #2E8B71;
+	font-weight: bold;
+	line-height: 24px;
+	display: inline-block;
+}
+.footer-left > a{
+	color: rgba(46,139,113,0.9);
+}
+#footer-left-1{
+	margin-left: 16px;
+}
+.footer-right{
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+#name-kjdc{
+	color: #66FF66;
+}
+#name-lzya{
+	color: #FFC0CB;
+}
+#name-cutie{
+	color: #6495ED;
+}
+.footer-right > p{
+	color: #2E8B71;
+}
+.footer-right > p > a{
+	color: #2E8B71;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#backtoindex{
+	text-decoration: none;
+}
+/* 主体内容 */
+.main{
+	margin-top: 32px;
+}
+.main > p{
+	line-height: 32px;
+	margin-left: 10px;
+}
+.main > h1{
+	line-height: 48px;
+	margin-left: 0px;
+}
+.main > h2{
+	line-height: 38px;
+	margin-left: 4px;
+}
+/* 我也不知道这四个是啥*/
+.index-title{
+	text-align: center;
+}
+.index-ul{
+	margin-left: 40%;
+	margin-top: 20px;
+	line-height: 30px;
+}
+.index-ul > li > a{
+	color: #66FF66;
+}
+.index-ul,.index-ul > li{
+	list-style-type: square;
+}
+/* 白幕 */
+baimu{
+	background: #F5DEB3;
+	color: #F5DEB3;
+}
+baimu > a{
+	color: #F5DEB3;
+}
+baimu:hover{
+	color: #66FF66;
+	background: inherit;
+}
+baimu > a:hover{
+	color: #66FF66;
+	background: inherit;
+}
