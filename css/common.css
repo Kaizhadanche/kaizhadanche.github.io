@@ -1,4 +1,4 @@
-/* 整体调整 避免奇怪的事情发生 */
+/* for github pages */
 *{
 	margin: 0;
 	padding: 0;
@@ -10,7 +10,7 @@ body{
 	background: #0F0E0E;
 	width: 100%;
 }
-/* 默认颜色尺寸链接调整 */
+/* default color and size */
 h1,h2,h3,h4,h5,h6,p,ul,li,hr{
 	color: #66FF66;
 }
@@ -21,7 +21,7 @@ a{
 	text-decoration: none;
 	color: #6F87ED;
 }
-/* 页眉页脚 */
+/* header and footer loaded in common.js */
 .title{
 	margin-top: 10px;
 	margin-left: 70px;
@@ -120,7 +120,7 @@ footer{
 #backtoindex{
 	text-decoration: none;
 }
-/* 主体内容 */
+/* main content */
 .main{
 	margin-top: 32px;
 }
@@ -151,7 +151,7 @@ footer{
 .index-ul,.index-ul > li{
 	list-style-type: square;
 }
-/* 白幕 */
+/* baimu */
 baimu{
 	background: #F5DEB3;
 	color: #F5DEB3;
