@@ -19,3 +19,88 @@ function exam(){
 		document.getElementById("exam").innerHTML = "<i class='fa fa-pencil'></i>&nbsp;中考进行中";
 	}
 };
+function swy(){
+	$("#seewithyou-img").click(function (){
+		$(".seewithyou-button").toggle();
+	});
+	$(".seewithyou-button-1").click(function (){
+		$("#seewithyou").hide();
+	});
+	$(".seewithyou-button-2").click(function (){
+		window.open("/login.html");
+	});
+	$(".seewithyou-button-3").click(function (){
+		$(".seewithyou-says").show();
+		$(".seewithyou-button").toggle();
+		var swyr = Math.floor(Math.random() * 5);
+		switch (swyr) {
+			case 0:
+				$(".seewithyou-says").text("看着塔什干就这么开心?......这样？随你高兴吧");
+				break;
+			case 1:
+				$(".seewithyou-says").text("看塔什干把你们揍扁！γpa！");
+				break;
+			case 2:
+				$(".seewithyou-says").text("塔什干认真起来是绝对不会输的！");
+				break;
+			case 3:
+				$(".seewithyou-says").text("……嗯？你在干什么？要玩塔什干衣服上的球球吗？");
+				break;
+			case 4:
+				$(".seewithyou-says").text("果然那个巧克力…有古怪…塔什干竟然落到这地步…呜…头还是晕晕的…");
+		};
+	});
+	$(".seewithyou-button-4").click(function (){
+		window.location.href = "#top";
+	});
+	$(".seewithyou-button-5").click(function (){
+		$("#seewithyou").hide();
+		$("#seewithyou-right").show();
+		$(".seewithyou-button").toggle();
+	});
+	$(".seewithyou-says").click(function (){
+		$(".seewithyou-says").toggle();
+	});
+	
+	$("#seewithyou-img-right").click(function (){
+		$(".seewithyou-button-right").toggle();
+	});
+	$(".seewithyou-button-1-right").click(function (){
+		$("#seewithyou-right").hide();
+	});
+	$(".seewithyou-button-2-right").click(function (){
+		window.open("/login.html");
+	});
+	$(".seewithyou-button-3-right").click(function (){
+		$(".seewithyou-says-right").show();
+		$(".seewithyou-button-right").toggle();
+		var swyr = Math.floor(Math.random() * 5);
+		switch (swyr) {
+			case 0:
+				$(".seewithyou-says-right").text("看着塔什干就这么开心?......这样？随你高兴吧");
+				break;
+			case 1:
+				$(".seewithyou-says-right").text("看塔什干把你们揍扁！γpa！");
+				break;
+			case 2:
+				$(".seewithyou-says-right").text("塔什干认真起来是绝对不会输的！");
+				break;
+			case 3:
+				$(".seewithyou-says-right").text("……嗯？你在干什么？要玩塔什干衣服上的球球吗？");
+				break;
+			case 4:
+				$(".seewithyou-says-right").text("果然那个巧克力…有古怪…塔什干竟然落到这地步…呜…头还是晕晕的…");
+		};
+	});
+	$(".seewithyou-button-4-right").click(function (){
+		window.location.href = "#top";
+	});
+	$(".seewithyou-button-5-right").click(function (){
+		$("#seewithyou-right").hide();
+		$("#seewithyou").show();
+		$(".seewithyou-button-right").toggle();
+	});
+	$(".seewithyou-says-right").click(function (){
+		$(".seewithyou-says-right").toggle();
+	});
+};
