@@ -20,9 +20,6 @@ function exam(){
 	}
 };
 function swy(){
-	// load seewithyou
-	document.getElementById("seewithyou").innerHTML = '<img src="/img/swy.png" id="seewithyou-img"/><div class="seewithyou-button-1 seewithyou-button"><i class="fa fa-times"></i></div><div class="seewithyou-button-2 seewithyou-button"><i class="fa fa-user-o"></i></div><div class="seewithyou-button-3 seewithyou-button"><i class="fa fa-commenting-o"></i></div><div class="seewithyou-button-4 seewithyou-button"><i class="fa fa-angle-double-up"></i></div><div class="seewithyou-button-5 seewithyou-button"><i class="fa fa-long-arrow-right"></i></div><div class="seewithyou-says"></div></div><div id="seewithyou-right"><img src="/img/swy.png" id="seewithyou-img-right"/><div class="seewithyou-button-1-right seewithyou-button-right"><i class="fa fa-times"></i></div><div class="seewithyou-button-2-right seewithyou-button-right"><i class="fa fa-user-o"></i></div><div class="seewithyou-button-3-right seewithyou-button-right"><i class="fa fa-commenting-o"></i></div><div class="seewithyou-button-4-right seewithyou-button-right"><i class="fa fa-angle-double-up"></i></div><div class="seewithyou-button-5-right seewithyou-button-right"><i class="fa fa-long-arrow-left"></i></div><div class="seewithyou-says-right"></div>';
-	// button
 	$("#seewithyou-img").click(function (){
 		$(".seewithyou-button").toggle();
 	});
@@ -64,7 +61,7 @@ function swy(){
 	$(".seewithyou-says").click(function (){
 		$(".seewithyou-says").toggle();
 	});
-	// button after turning right
+	
 	$("#seewithyou-img-right").click(function (){
 		$(".seewithyou-button-right").toggle();
 	});
