@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>{{ page.title | escape }} ~ 开炸弹车&Lzya</title>
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="stylesheet" href="/css/blog.css" />
+		<link rel="stylesheet" href="/css/common.css" />
+		<link href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
+		<script type="text/javascript" src="/js/blog.js"></script>
+		<script type="text/javascript" src="/js/jquery.js"></script>
+	</head>
+	<body>
+		<header id="header"></header>
+		<div id="blog">
+			<h1>{{ page.title | escape }}</h1>
+			<div class="time">
+				{%- assign date_format = "%Y - %m - %-d" -%}
+				<time datetime="{{ page.date | date_to_xmlschema }}" class="time-post">
+					On {{ page.date | date: date_format }}
+				</time>
+			{%- if page.modified_date -%}
+					<br/>
+					{%- assign mdate = page.modified_date | date_to_xmlschema -%}
+					<time datetime="{{ mdate }}" class="time-modified">
+						-- {{ mdate | date: date_format }}
+					</time>
+			{%- endif -%}
+			</div>
+			{%- if page.author -%}
+				{% for author in page.author %}
+			        <div class="author-coll">
+						<i class="fa fa-user"></i>&nbsp;<span class="author">{{ author }}</span>
+					</div>
+			            {%- if forloop.last == false %}/ {% endif -%}
+				{% endfor %}
+			{%- endif -%}
+			<div class="content">
+				{{ content }}
+			</div>
+			<div class="href">
+				<input type="text" value="{{ page.url | relative_url }}"/>
+				<input type="button" value="copy" onclick="copyhref();" />
+			</div>
+			<div class="comment">
+				<script src="https://utteranc.es/client.js"
+				        	repo="Kaizhadanche/kaizhadanche.github.io"
+				        	issue-term="pathname"
+				        	theme="photon-dark"
+				        	crossorigin="anonymous"
+				        	async>
+				</script>
+			</div>
+		</div>
+		<div id="seewithyou-load"></div>
+		<footer id="footer"></footer>
+	</body>
+	<script type="text/javascript">footer(); header(); swy();</script>
+</html>
