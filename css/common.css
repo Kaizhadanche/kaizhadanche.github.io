@@ -23,9 +23,9 @@ a{
 }
 /* header and footer loaded in common.js */
 .title{
-	margin-top: 10px;
-	margin-left: 70px;
-	width: 30%;
+	margin-top: 1vw;
+	margin-left: 3vw;
+	width: 30vw;
 	display: inline-block;
 }
 #title-avatar{
@@ -50,9 +50,9 @@ a{
 }
 .search{
 	display: inline-block;
-	margin-right: 20px;
-	margin-top: 27px;
-	width: 50%;
+	margin-left: 15vw;
+	margin-top: 2.7vw;
+	width: 50vw;
 	float: right;
 }
 #search-in{
