@@ -38,10 +38,19 @@
 			</div>
 			<div class="sidebar">
 				<div class="user-card">
-					12
+					<img src="/img/avatar.jpg" class="sidebar-avatar" />
+					<h2 class="sidebar-name">开炸弹车</h2>
+					<dl>
+						<dt><i class="fa fa-pencil"></i>&nbsp;Posts</dt>
+						<dd>{{ posts.size }}</dd>
+						<dt><i class="fa fa-file"></i>&nbsp;Files</dt>
+						<dd>{{ site.html_files.size }}</dd>
+					</dl>
 				</div>
 				<div class="categories">
-					34
+					{%- for cate in site.categories -%}
+						<div>{{ cate }}</div>
+					{%- endfor -%}
 				</div>
 				<div class="tags">
 					56
