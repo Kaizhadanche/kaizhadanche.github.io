@@ -1,4 +1,4 @@
 ---
-layout:home
-permalink:/testh
+layout: home
+permalink: /testh
 ---
