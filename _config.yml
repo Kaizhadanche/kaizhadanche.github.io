@@ -1,2 +1,3 @@
 markdown: gfm
 timezone: Asia/Shanghai
+excerpt_separator: "<!--more-->"
