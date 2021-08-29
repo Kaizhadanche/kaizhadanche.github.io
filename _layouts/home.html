@@ -40,12 +40,12 @@
 				<div class="user-card">
 					<img src="/img/avatar.jpg" class="sidebar-avatar" />
 					<h2 class="sidebar-name">开炸弹车</h2>
-					<dl>
-						<dt><i class="fa fa-pencil"></i>&nbsp;Posts</dt>
-						<dd>{{ posts.size }}</dd>
-						<dt><i class="fa fa-file"></i>&nbsp;Files</dt>
-						<dd>{{ site.html_files.size }}</dd>
-					</dl>
+					<div class="sidebar-info">
+						<span><i class="fa fa-pencil"></i>&nbsp;Posts</span>
+						<span>{{ posts.size }}</span>
+						<span><i class="fa fa-file"></i>&nbsp;Files</span>
+						<span>{{ site.html_files.size }}</span>
+					</div>
 				</div>
 				<div class="categories">
 					{%- for cate in site.categories -%}
