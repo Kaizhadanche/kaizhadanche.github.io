@@ -8,6 +8,7 @@
 		<link href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
 		<script type="text/javascript" src="/js/blog.js"></script>
 		<script type="text/javascript" src="/js/jquery.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
 	</head>
 	<body>
 		<header id="header"></header>
@@ -38,8 +39,8 @@
 				{{ content }}
 			</div>
 			<div class="href">
-				<input type="text" value="{{ page.url | relative_url }}"/>
-				<input type="button" value="copy" onclick="copyhref();" />
+				<input type="text" value="{{ page.url | relative_url }}" class="href-url" />
+				<input type="button" value="copy" onclick="copyhref();" class="href-button" data-clipboard-target=".href-url" />
 			</div>
 			<div class="comment">
 				<script src="https://utteranc.es/client.js"
@@ -54,5 +55,5 @@
 		<div id="seewithyou-load"></div>
 		<footer id="footer"></footer>
 	</body>
-	<script type="text/javascript">footer(); header(); swy();</script>
+	<script type="text/javascript">footer(); header(); swy(); new ClipboardJS('.href-button');</script>
 </html>
