@@ -19,9 +19,7 @@
 				{%- assign date_format = "%Y - %m - %d" -%}
 				{%- for post in posts -%}
 				<div class="archive-article">
-					{%- if page.categories -%}
 					<span class="post-category">{{ post.categories }}</span>
-					{%- endif -%}
 					<a href="{{ post.url | relative_url }}"><h2>{{ post.title | escape }}</h2></a>
 					<div class="post-time">{{ post.date | date: date_format }}</div>
 					<div class="post-excerpt">{{ post.excerpt }}</div>
