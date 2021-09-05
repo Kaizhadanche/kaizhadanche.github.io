@@ -180,7 +180,3 @@ function swy(){
 		$(".seewithyou-says-right").toggle();
 	});
 };
-function copy(){
-	alert("Copy successful");
-	$(".href-url").attr("value", "https://kaizhadanche.github.io{{ page.url | relative_url }}");
-}
