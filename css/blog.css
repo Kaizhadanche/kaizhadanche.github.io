@@ -32,14 +32,18 @@ h1{
 	margin: 50px 20%;
 	width: 60%;
 }
-.href > input[type="text"]{
+.href-url{
 	width: 85%;
 	margin-left: 5%;
 	height: 1.8em;
 	padding-left: 0.2em;
-	color: #0F0F0F;
+        color: rgba(15,15,15,0.75);
+        user-select: none;
 }
-.href > input[type="button"]{
+.href-url:hover{
+        color: #0F0F0F;
+}
+.href-button{
 	width: 8%;
 	height: 1.5em;
 	background: #3CB371;
