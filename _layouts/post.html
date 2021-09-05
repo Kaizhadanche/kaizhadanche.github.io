@@ -8,14 +8,14 @@
 		<link href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
 		<script type="text/javascript" src="/js/blog.js"></script>
 		<script type="text/javascript" src="/js/jquery.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js"></script>
+		<script src="/js/clipboard.js"></script>
 	</head>
 	<body>
 		<header id="header"></header>
 		<div id="blog">
 			<h1>{{ page.title | escape }}</h1>
 			<div class="time">
-				{%- assign date_format = "%Y - %m - %-d" -%}
+				{%- assign date_format = "%Y - %m - %d" -%}
 				<time datetime="{{ page.date | date_to_xmlschema }}" class="time-post">
 					On {{ page.date | date: date_format }}
 				</time>
@@ -39,8 +39,8 @@
 				{{ content }}
 			</div>
 			<div class="href">
-				<input type="text" value="https://kaizhadanche.github.io{{ page.url | relative_url }}" class="href-url" disabled="disabled" />
-				<button class="href-button" data-clipboard-target=".href-url">Copy</button>
+				<input type="text" value="https://kaizhadanche.github.io{{ page.url | relative_url }}" class="href-url" />
+				<button class="href-button" data-clipboard-text="https://kaizhadanche.github.io{{ page.url | relative_url }}">Copy</button>
 			</div>
 			<div class="comment">
 				<script src="https://utteranc.es/client.js"
