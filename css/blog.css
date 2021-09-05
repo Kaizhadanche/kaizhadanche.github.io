@@ -213,3 +213,9 @@ ul > ul{
 ul > ul > ul{
 	margin-left: 2em;
 }
+.content > img{
+	border: 2px solid #EEEEFF;
+	border-bottom-width: 5px;
+	background: #EEEEFF;
+	box-shadow: 1px 1px 1px 1px rgba(100,100,100,0.75);
+}
