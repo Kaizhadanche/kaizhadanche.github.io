@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>星星之火</title>
+  
+  <subtitle>ewtowit&#39;s blog</subtitle>
+  <link href="https://kaizhadanche.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://kaizhadanche.github.io/"/>
+  <updated>2022-08-04T14:59:14.444Z</updated>
+  <id>https://kaizhadanche.github.io/</id>
+  
+  <author>
+    <name>ewtowit</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>高堡版主/奇人版主</title>
+    <link href="https://kaizhadanche.github.io/2022/08/04/%E9%AB%98%E5%A0%A1%E7%89%88%E4%B8%BB-%E5%A5%87%E4%BA%BA%E7%89%88%E4%B8%BB/"/>
+    <id>https://kaizhadanche.github.io/2022/08/04/%E9%AB%98%E5%A0%A1%E7%89%88%E4%B8%BB-%E5%A5%87%E4%BA%BA%E7%89%88%E4%B8%BB/</id>
+    <published>2022-08-04T14:14:31.000Z</published>
+    <updated>2022-08-04T14:59:14.444Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>《高堡版主》是由开炸弹车创作的论坛同人小说，基本设定改编自《高堡奇人》，共分3传：高堡版主·前传、高堡版主·易坛元首传、高堡版主·MB传，其中前传和易坛元首传的后31章为正传。正传的大量内容来自《三国演义》和《水浒传》。其续作为《奇人版主》。</p></blockquote><p><em>以上内容引自NMFWiki。</em></p><p>从2020年6月开始的高堡版主&#x2F;奇人版主系列一直更新至今，并且由于个人因素，早期出现了多个不同的版本。一开始仅是发布在各大论坛综合区，但由于锁帖机制，MCBBS查看需要挖掘卡，网易论坛不再支持查看，而水坛连论坛都没了。这对一些用户的阅读需要造成了很大阻碍。</p><p>后来根据本地的存档和已发布帖子中的图片，在<a href="https://mets.miraheze.org/">NMFLWiki</a>整理了《高堡版主》《奇人版主》的内容。</p><p>为了更方便保存和阅读，现已推出“高堡版主和奇人版主合编”、“高堡版主收藏版”——</p><ul><li><a href="https://naytcute-my.sharepoint.com/:w:/g/personal/kjdc_naytcute_onmicrosoft_com/ER3bCUFF22tBqDlRjKhI3pQB3T-s6BbaRit1kfAcVe1EiA?e=kttrPI">高堡版主和奇人版主合编</a></li><li><a href="https://naytcute-my.sharepoint.com/:w:/g/personal/kjdc_naytcute_onmicrosoft_com/EXolzf0p_x5LnapOkuhMhroBv_Lcd6OhF1RWR1faaKSfDg?e=lt960J">高堡版主收藏版</a></li></ul><p>注：访问密码为代数式 $a+b$ 的最大值，其中$a,b \in R^*, a-a^2b+4ab-4&#x3D;0$</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;《高堡版主》是由开炸弹车创作的论坛同人小说，基本设定改编自《高堡奇人》，共分3传：高堡版主·前传、高堡版主·易坛元首传、高堡版主·MB传，其中前传和易坛元首传的后31章为正传。正传的大量内容来自《三国演义》和《水浒传》。其续作为《奇人版主》。&lt;/p</summary>
+      
+    
+    
+    
+    <category term="Creation" scheme="https://kaizhadanche.github.io/categories/Creation/"/>
+    
+    
+    <category term="易坛" scheme="https://kaizhadanche.github.io/tags/%E6%98%93%E5%9D%9B/"/>
+    
+    <category term="资源" scheme="https://kaizhadanche.github.io/tags/%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://kaizhadanche.github.io/2022/06/23/hello-world/"/>
+    <id>https://kaizhadanche.github.io/2022/06/23/hello-world/</id>
+    <published>2022-06-23T01:17:56.616Z</published>
+    <updated>2022-06-23T01:17:56.616Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
